@@ -1,9 +1,9 @@
 // Importamos los componentes visuales que se van a usar en la aplicación
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Profile from './components/Profile';
-import StoryBar from './components/StoryBar';
+import Header from './components/Header/Index.tsx';
+import Navbar from './components/Navbar/Navbar.tsx';
+import Profile from './components/Profile/Index.tsx';
+import StoryBar from './components/StoryBar/Index.tsx';
 import Feed from './components/Feed';
 import './App.css';
 

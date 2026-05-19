@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { fetchCatPosts } from '../../services/catApi';
 import type { CatPost } from '../../services/catApi';
-import Post from '../Post';
-import PostModal from '../PostModal';
+import Post from '../Post/Index.tsx';
+import PostModal from '../PostModal/Index.tsx';
 import './Feed.css';
 
 const Feed: React.FC = () => {
