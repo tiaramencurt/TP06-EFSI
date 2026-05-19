@@ -1,0 +1,125 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #0f0c1d;
+  width: 90%;
+  max-width: 1000px;
+  height: 80vh;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+}
+
+.close-btn {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal-body {
+  display: flex;
+  width: 100%;
+}
+
+.modal-image-container {
+  flex: 1.5;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.modal-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #333;
+}
+
+.detail-header {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #333;
+}
+
+.comments-area {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.fake-comment {
+  margin-top: 15px;
+}
+
+.detail-footer {
+  padding: 15px;
+  border-top: 1px solid #333;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.left-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.likes-count {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-date {
+  color: #8e8e8e;
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+}
+
+.add-comment {
+  display: flex;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.add-comment input {
+  background: transparent;
+  border: none;
+  color: white;
+  flex: 1;
+  outline: none;
+}
+
+.add-comment button {
+  background: none;
+  border: none;
+  color: #3897f0;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.feed-container {
+  padding: 20px 0;
+}
+
+.masonry-grid {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  color: #8e8e8e;
+}
