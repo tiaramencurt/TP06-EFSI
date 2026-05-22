@@ -127,8 +127,3 @@ Simulamos la existencia de una sesión de usuario activa bases de datos ni auten
 * **Datos Locales:** Toda la información (Nombre de usuario, biografía, foto de perfil, número de seguidores y seguidos) está en `src/data/user.ts`.
 * **Navegación e Integración:** Desde la barra lateral, al hacer clic sobre el componente `<Profile />`, vamos a la vista general hacia la grilla del usuario, la cual despliega las publicaciones estáticas del perfil simulado puestas en una estructura de tres columnas.
 
----
-
-```
-
-```
