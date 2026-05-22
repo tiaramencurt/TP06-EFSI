@@ -4,7 +4,7 @@ import Header from './components/Header/Index.tsx';
 import Navbar from './components/Navbar/Navbar.tsx';
 import Profile from './components/Profile/Index.tsx';
 import StoryBar from './components/StoryBar/Index.tsx';
-import Feed from './components/Feed';
+import Feed from './components/Feed/Index.tsx';
 import './App.css';
 
 function App() {

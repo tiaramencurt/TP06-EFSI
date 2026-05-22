@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { fetchCatPosts } from '../../services/catApi';
-import type { CatPost } from '../../services/catApi';
+import { fetchCatPosts } from '../../services/catApi.ts';
+import type { CatPost } from '../../services/catApi.ts';
 import Post from '../Post/Index.tsx';
 import PostModal from '../PostModal/Index.tsx';
 import './Feed.css';
